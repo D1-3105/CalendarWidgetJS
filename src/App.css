@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+
+.calendar-plate-empty-container {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  flex-direction: column;
+} 
+
+.calendar-plate-pending-container {
+  background-color: rgba(0, 197, 99, 0.307);
+  color: rgba(5, 117, 59, 0.727);
+  text-align: center;
+  flex-direction: column;
+}
+
+.calendar-plate-confirmed-container {
+  background-color: rgba(0, 197, 99, 0.307);
+  color: rgba(5, 117, 59, 0.727);
+  text-align: center;
+  flex-direction: column;
+}
+
+.calendar-plate-skipped-container {
+  background-color: rgb(255, 255, 179);
+  color: red;
+  text-align: center;
+  flex-direction: column;
+}
+
+.calendar-plate-flagged-container {
+  background-color: gray;
+  text-align: center;
+  flex-direction: column;
+}
+
+.calendar-plate-cancelled-container {
+  text-decoration: line-through;
+  background-color: rgba(120, 117, 117, 0.5);
+  text-align: center;
+  opacity: 0.5;
+  flex-direction: column;
+}
+
+
+.calendar-plate-question-mark-container {
+  background-color: rgba(120, 117, 117, 0.5);
+  text-align: center;
+  opacity: 0.5;
+  flex-direction: column;
+}
+
+.corner_image {
+  position: relative;
+  float: left;
+  top: 0;
+  left: 0;
+}
+
+.td-calendar {
+  padding:10px 10px 10px 10px;
+}
